@@ -3,22 +3,7 @@ import { Composition, registerRoot } from 'remotion';
 
 const MedicalReel: React.FC = () => {
   return (
-    <div
-      style={{
-        width: '100%',
-        height: '100%',
-        backgroundColor: '#07111f',
-        color: 'white',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontFamily: 'Arial, sans-serif',
-        textAlign: 'center',
-        padding: 60,
-        boxSizing: 'border-box',
-      }}
-    >
+    <div style={{ width: '100%', height: '100%', backgroundColor: '#07111f', color: 'white', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', fontFamily: 'Arial, sans-serif', textAlign: 'center', padding: 60, boxSizing: 'border-box' }}>
       <div style={{ fontSize: 32, color: '#72d5e8', marginBottom: 36 }}>
         SAĞLIK NOTLARI
       </div>
