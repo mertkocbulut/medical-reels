@@ -1,7 +1,7 @@
 import React from 'react';
-import {Composition, registerRoot} from 'remotion';
+import { Composition, registerRoot } from 'remotion';
 
-const MedicalReel: React.FC<{}> = () => {
+const MedicalReel: React.FC = () => {
   return (
     <div
       style={{
@@ -19,17 +19,17 @@ const MedicalReel: React.FC<{}> = () => {
         boxSizing: 'border-box',
       }}
     >
-      <div style={{fontSize: 32, color: '#72d5e8', marginBottom: 36}}>
+      <div style={{ fontSize: 32, color: '#72d5e8', marginBottom: 36 }}>
         SAĞLIK NOTLARI
       </div>
-      <div style={{fontSize: 64, fontWeight: 700, marginBottom: 18}}>
+      <div style={{ fontSize: 64, fontWeight: 700, marginBottom: 18 }}>
         Vücudunuzun
       </div>
-      <div style={{fontSize: 64, fontWeight: 700, marginBottom: 18}}>
+      <div style={{ fontSize: 64, fontWeight: 700, marginBottom: 18 }}>
         sinyallerini dinleyin
       </div>
-      <div style={{width: 500, height: 4, backgroundColor: '#72d5e8', marginTop: 30}} />
-      <div style={{fontSize: 30, color: '#b8c4d8', marginTop: 30}}>
+      <div style={{ width: 500, height: 4, backgroundColor: '#72d5e8', marginTop: 30 }} />
+      <div style={{ fontSize: 30, color: '#b8c4d8', marginTop: 30 }}>
         Sağlığınız hakkında doğru bilgiler
       </div>
     </div>
