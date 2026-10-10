@@ -37,6 +37,16 @@ SAĞLIK NOTLARI
 };
 
 const Root: React.FC = () => (
+  <Composition
+    id="MedicalReel"
+    component={MedicalReel}
+    durationInFrames={300}
+    fps={30}
+    width={1080}
+    height={1920}
+  />
 );
+
+registerRoot(Root);
 
 registerRoot(Root);
